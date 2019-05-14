@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+h1, p{
+    margin:0;
+}
+.container{
+    background-color: pink;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear:both;
+    height: 0;
+    visibility: hidden;
+}
+.item {
+    padding:5%;
+    float:left;
+}
+.item-a {
+    width:20%;
+    background-color: yellow
+}
+.item-b {
+    width:30%;
+    background-color: yellowgreen
+}
+.item-c {
+    width:20%;
+    background-color: green
+}
